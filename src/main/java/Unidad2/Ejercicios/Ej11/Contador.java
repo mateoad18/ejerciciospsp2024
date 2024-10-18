@@ -1,19 +1,14 @@
-package Unidad2.Ejemplo9;
+package Unidad2.Ejercicios.Ej11;
 
 public class Contador {
-
     private int n;
-
     public Contador(int n) {
         this.n = n;
     }
-
-    public synchronized void inc() {
+    public  void inc() {
         n++;
     }
-
     public int get() {
         return n;
     }
-
 }
