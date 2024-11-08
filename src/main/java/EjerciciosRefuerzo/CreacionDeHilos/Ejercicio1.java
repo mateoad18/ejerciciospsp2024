@@ -12,7 +12,7 @@ public class Ejercicio1 implements Runnable{
     public static void main(String []args){
         ExecutorService service = Executors.newFixedThreadPool(10);
         for (int i=0;i<20;i++){
-            service.submit(new Ejercicio1(tiempo:i * 500));
+           // service.submit(new Ejercicio1(tiempo:i * 500));
         }
     }
 
